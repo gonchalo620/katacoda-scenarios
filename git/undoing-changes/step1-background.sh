@@ -11,3 +11,4 @@ git commit -m "Se añade archivo Readme en formato markdown"
 echo 'Archivo de configuración' > variables.config
 git add variables.config
 git commit -m "Se añade archivo de configuración base"
+echo "nuevo texto" >> ./Readme.md
