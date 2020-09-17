@@ -1,1 +1,1 @@
-`git checkout`{{execute}}
+`git checkout .`{{execute}}

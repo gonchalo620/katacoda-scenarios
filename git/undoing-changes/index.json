@@ -15,12 +15,14 @@
       {
         "title": "Paso 2 - Restablecimiento de Git",
         "text": "step2.md",
+        "background":"step2-background.sh",
         "verify": "step2-verify.sh",
         "answer": "step2-answer.md"
       },
       {
         "title": "Paso 3 - Git Reset Hard",
         "text": "step3.md",
+        "background":"step3-background.sh",
         "answer": "step3-answer.md",
         "verify": "step3-verify.sh"
       },
