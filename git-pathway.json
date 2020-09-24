@@ -22,6 +22,11 @@
       "course_id": "undoing-changes",
       "title": "Escenario 4: Deshaciendo cambios",
       "description": "Aprenda a deshacer cambios cuando sea necesario."
+    },
+    {
+      "course_id": "full-exercise",
+      "title": "Escenario 5: Ejercicio completo",
+      "description": "Aprenda git realizando un flujo completo de tareas"
     }
   ]
 }
