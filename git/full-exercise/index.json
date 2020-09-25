@@ -28,6 +28,12 @@
           "text": "step4.md",
           "answer": "step4-answer.md",
           "verify": "step4-verify.sh"
+         },
+         {
+          "title": "Paso 5: Git Fetch",
+          "text": "step5.md",
+          "answer": "step5-answer.md",
+          "verify": "step5-verify.sh"
          }
       ],
       "intro": {

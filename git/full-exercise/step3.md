@@ -1,7 +1,8 @@
-Donde `git push` le permite enviar sus cambios a un repositorio remoto, `git pull` funciona a la inversa. git pull le permite sincronizar los cambios de un repositorio remoto a su versión local.
-
-Los cambios del repositorio remoto se fusionan automáticamente en la rama en la que está trabajando actualmente.
+Cuando clonamos un repositorio, esto crea un directorio por defecto con el nombre del repositorio git, inicializa un directorio .git en su interior, descarga toda la información de ese repositorio y saca una copia de trabajo de la última versión. 
+Si te metes en el directorio Aprendiendo_Git, verás que están los archivos del proyecto listos para ser utilizados. 
 
 ## Tarea
 
-Use el comando `git pull` para obtener los cambios del repositorio remoto a su repositorio local en la rama `master`. 
+Con el siguiente comando podemos pasar la consola de comandos al directorio "Aprendiendo_Git" `cd Aprendiendo_Git`{{execute}}
+
+Para listar los archivos y carpetas incluidos los ocultos como lo es la carpeta .git que tiene este directorio debemos ejecutar el comando `ls -a` en linux o `dir -a` en Windows.

@@ -1,1 +1,1 @@
-git push origin master | grep -i 'Everything up-to-date' && echo "done"
+git config --list | grep -i 'remote.origin.url' && echo "done"

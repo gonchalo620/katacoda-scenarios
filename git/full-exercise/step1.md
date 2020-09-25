@@ -27,6 +27,8 @@ Lo primero que deberás hacer cuando instales Git es establecer tu nombre de usu
 de correo electrónico. Esto es importante porque los "commits" de Git usan esta información, y es
 introducida de manera inmutable en los commits que envías:
 
+Para configuración inicial, ejecuta los siguientes comandos, sustituyéndolos con tus datos reales
+
 `git config --global user.name "Tu Nombre Completo"`
 `git config --global user.email tucorreo@mail.com`
 

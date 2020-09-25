@@ -1,7 +1,13 @@
-Cuando esté listo para compartir sus confirmaciones, debe enviarlas a un repositorio remoto a través de `git push`. Un flujo de trabajo típico de Git sería realizar varias confirmaciones pequeñas a medida que completa una tarea y la envía a un control remoto en puntos relevantes, como cuando la tarea está completa, para garantizar la sincronización del código dentro del equipo.
-
-El comando `git push` va seguido de dos parámetros. El primer parámetro es el nombre descriptivo del repositorio remoto que definimos en el primer paso. El segundo parámetro es el nombre de la rama. De forma predeterminada, todos los repositorios de git tienen una rama `master` en la que se trabaja el código.
+Los repositorios remotos le permiten compartir cambios desde o hacia su repositorio. Las ubicaciones remotas son generalmente un servidor de compilación, una máquina de miembros del equipo o una tienda centralizada como Github.com. Los repositorios remotos se clonan usando el comando `git clone <remote-url>` donde `<remote-url>` es la ubicación remota, generalmente una URL HTTPS o una conexión SSH, por ejemplo https://github.com/OcelotUproar/ocelite.git or git@github.com:/OcelotUproar/ocelite.git.  
 
 ## Tarea
 
-Use el comando `git push` para enviar una confirmación de la rama `master` al origen remoto. Esta confirmación se se creo de manera automática para este escenario.
+Este entorno tiene una ubicación de repositorio remoto en https://capacitaciones-azure-devops@dev.azure.com/capacitaciones-azure-devops/Aprendiendo_Git/_git/Aprendiendo_Git. Usando `git clone`, clone el repositorio remoto.
+
+`git clone https://capacitaciones-azure-devops@dev.azure.com/capacitaciones-azure-devops/Aprendiendo_Git/_git/Aprendiendo_Git`{{execute}}
+
+## Tips
+
+Cuando usa el comando `git clone`, se agregará automáticamente como un control remoto con el nombre de `origin` la ubicación desde la que está clonando.
+
+Normalmente solo se clona una vez y luego por medio de comandos actualizamos el repositorio local con el repositorio remoto.
