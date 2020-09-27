@@ -1,10 +1,2 @@
-```echo '<!DOCTYPE html>
-<html>
-<body>
-
-<h1>My First Heading</h1>
-
-<p>My first paragraph.</p>
-
-</body>
-</html>' > Reemplaza_Esto_Por_Tu_Nombre.html```{{copy}}
+```echo '<h1>Nombre: </h1>
+<p>Rol: </p>' >> Reemplaza_Esto_Por_Tu_Nombre.html```{{copy}}
