@@ -5,4 +5,4 @@ Si te metes en el directorio Aprendiendo_Git, verás que están los archivos del
 
 Con el siguiente comando podemos pasar la consola de comandos al directorio "Aprendiendo_Git" `cd Aprendiendo_Git`{{execute}}
 
-Para listar los archivos y carpetas incluidos los ocultos como lo es la carpeta .git que tiene este directorio debemos ejecutar el comando `ls -a` en linux o `dir -a` en Windows.
+Para listar los archivos y carpetas incluidos los ocultos como lo es la carpeta .git que tiene este directorio debemos ejecutar el comando `ls -a`{{execute}} en linux o `dir -a`{{copy}} en Windows.

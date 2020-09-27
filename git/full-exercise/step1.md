@@ -29,8 +29,8 @@ introducida de manera inmutable en los commits que envías:
 
 Para configuración inicial, ejecuta los siguientes comandos, sustituyéndolos con tus datos reales
 
-`git config --global user.name "Tu Nombre Completo"`
-`git config --global user.email tucorreo@mail.com`
+`git config --global user.name "Tu Nombre Completo"`{{copy}}
+`git config --global user.email tucorreo@mail.com`{{copy}}
 
 ## Tips
 
