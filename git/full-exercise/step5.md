@@ -2,13 +2,13 @@ Este repositorio tiene 3 ramas principales: produccion, pruebas y desarrollo. Co
 
 ## Tarea
 
-Primero que todo se debe ejecutar el siguiente comando para pasarse a la rama de desarrollo.
+Primero que todo debes ejecutar el siguiente comando para pasarse a la rama de desarrollo.
 
 `git checkout desarrollo`{{execute}}
 
-Ahora que estás ubicado en la rama de desarrollo, lo que sigue es crear una nueva rama a partir de esta.
+Ahora que estás ubicado en la rama de desarrollo, lo que sigue es crear una nueva rama a partir de esta con el siguiente comando (reemplaza tu_nombre_sin_espacios por tu nombre completo separado por _, Ejemplo git branch feature/jorge_alonso_cadavid_garcia). Esto se hace con el fin de que no hayan ramas con el mismo nombre en distintos participantes y puedes identificar tus cambios en los ejercicios posteriores.
 
-`git branch feature/tu_nombre_sin_espacios`{{copy}}. Este comando crea la rama pero no se pasa a ella. Ejemplo git branch feature/jorge_alonso_cadavid_garcia esto se hace con el fin de que no hayan ramas con el mismo nombre en distintos participantes.
+`git branch feature/tu_nombre_sin_espacios`{{copy}}. Este comando crea la rama pero no se pasa a ella.
 
 En el mundo real, en vez del nombre puedes nombrarlo con la identificación de la historia de usuario, nombre del sprint, nombre que identifica el cambio, etc, lo importante es que dentro del equipo haya un acuerdo del nombramiento de las ramas feature/*.
 
