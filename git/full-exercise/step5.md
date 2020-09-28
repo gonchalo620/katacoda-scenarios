@@ -6,21 +6,15 @@ Primero que todo debes ejecutar el siguiente comando para pasarse a la rama de d
 
 `git checkout desarrollo`{{execute}}
 
-Ahora que estás ubicado en la rama de desarrollo, lo que sigue es crear una nueva rama a partir de esta con el siguiente comando (reemplaza tu_nombre_sin\_espacios por tu nombre completo separado por \_, Ejemplo `git branch feature/jorge_alonso_cadavid_garcia`{{copy}}). Esto se hace con el fin de que no hayan ramas con el mismo nombre en distintos participantes y puedas identificar tus cambios en los ejercicios posteriores.
+Ahora que estás ubicado en la rama de desarrollo, lo que sigue es crear una nueva rama a partir de desarrollo. Para crear una nueva rama y saltar a ella en un solo paso se debe ejecutar el siguiente comando (reemplaza tu_nombre_sin\_espacios por tu nombre completo separado por \_, Ejemplo `git checkout -b feature/jorge_alonso_cadavid_garcia`{{copy}}). Esto se hace con el fin de que no hayan ramas con el mismo nombre en distintos participantes y puedas identificar tus cambios en los ejercicios posteriores.
  
-Este comando crea la rama pero no se pasa a ella.
-
-Para pasarte a la rama que acabas de crear ejecuta el comando `git checkout feature/tu_nombre_sin_espacios`{{copy}}
-
 Tenga en cuenta el nombre de la rama porque lo necesitarás saber en los pasos posteriores.
 
 ## Nota
 
 En el mundo real, en vez del nombre puedes nombrarlo con la identificación de la historia de usuario, nombre del sprint, nombre que identifica el cambio, etc, lo importante es que dentro del equipo haya un acuerdo del nombramiento de las ramas feature/*.
 
-Para los pasos anteriores, también puedes ejecutar un comando que se comporta como un atajo de estos.
-Para crear una nueva rama y saltar a ella en un solo paso, puedes utilizar el comando `git checkout -b feature/tu_nombre_sin_espacios` con la opción -b. No ejecutes este comando si ya ejecutaste los de de checkout
+`git checkout -b feature/jorge_alonso_cadavid_garcia` con la opción -b en realidad es un atajo de los siguientes 2 comandos:
 
-Esto es un atajo para los comandos:
-`git branch feature/tu_nombre_sin_espacios`
-`git checkout feature/tu_nombre_sin_espacios`
+1- `git branch feature/tu_nombre_sin_espacios`. Este comando crea la rama pero no se pasa a ella.
+2- `git checkout feature/tu_nombre_sin_espacios`. Con este comando te puedes pasar a la rama que creaste.

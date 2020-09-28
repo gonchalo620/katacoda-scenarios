@@ -2,4 +2,4 @@ Descargar nuevos cambios de desarrollo
 
 
 git checkout desarrollo
-git pull desarrollo
+git pull origin
