@@ -4,7 +4,7 @@ Solo se confirmarán los cambios agregados al área de preparación, no se inclu
 
 ## Tarea
 
-Utilice `git commit -m "<se creó un nuevo archivo html con mi información>"`{{execute}} para confirmar el archivo preparado.
+Utilice `git commit -m "se creó un nuevo archivo html con mi información"`{{execute}} para confirmar el archivo preparado.
 
 ## Nota
 

@@ -1,4 +1,4 @@
-Este repositorio tiene 3 ramas principales: produccion, pruebas y desarrollo. Como te pudiste dar cuenta en el paso anterior, la rama de produccion es la rama por defecto. Estas 3 ramas tiene políticas, por lo que no se pueden enviar cambios directamente al repositorio remoto sobre estas ramas. Es por este motivo que se requiere que crees una nueva rama basada en la rama desarrollo, en la cual puedes hacer  y enviar modificaciones.
+Este repositorio tiene 3 ramas principales: produccion, pruebas y desarrollo. Como te pudiste dar cuenta en el paso anterior, la rama de produccion es la rama por defecto. Estas 3 ramas tienen políticas, por lo que no se pueden enviar cambios directamente al repositorio remoto sobre estas ramas. Es por este motivo que se requiere que crees una nueva rama basada en la rama desarrollo, para que puedas hacer y enviar modificaciones.
 
 ## Tarea
 
@@ -6,11 +6,13 @@ Primero que todo debes ejecutar el siguiente comando para pasarse a la rama de d
 
 `git checkout desarrollo`{{execute}}
 
-Ahora que estás ubicado en la rama de desarrollo, lo que sigue es crear una nueva rama a partir de esta con el siguiente comando (reemplaza tu_nombre_sin_espacios por tu nombre completo separado por _, Ejemplo git branch feature/jorge_alonso_cadavid_garcia). Esto se hace con el fin de que no hayan ramas con el mismo nombre en distintos participantes y puedes identificar tus cambios en los ejercicios posteriores.
-
-`git branch feature/tu_nombre_sin_espacios`{{copy}}. Este comando crea la rama pero no se pasa a ella.
+Ahora que estás ubicado en la rama de desarrollo, lo que sigue es crear una nueva rama a partir de esta con el siguiente comando (reemplaza tu_nombre_sin\_espacios por tu nombre completo separado por \_, Ejemplo `git branch feature/jorge_alonso_cadavid_garcia`{{copy}}). Esto se hace con el fin de que no hayan ramas con el mismo nombre en distintos participantes y puedas identificar tus cambios en los ejercicios posteriores.
+ 
+Este comando crea la rama pero no se pasa a ella.
 
 Para pasarte a la rama que acabas de crear ejecuta el comando `git checkout feature/tu_nombre_sin_espacios`{{copy}}
+
+Tenga en cuenta el nombre de la rama porque lo necesitarás saber en los pasos posteriores.
 
 ## Nota
 

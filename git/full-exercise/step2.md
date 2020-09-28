@@ -6,7 +6,7 @@ Usando el comando `git clone`, clone el repositorio remoto https://capacitacione
 
 `git clone https://capacitaciones-azure-devops@dev.azure.com/capacitaciones-azure-devops/Aprendiendo_Git/_git/TallerGit`{{execute}}
 
-## Tips
+## Nota
 
 Cuando usa el comando `git clone`, se agregará automáticamente como remoto con el nombre de `origin` la ubicación desde la que está clonando.
 

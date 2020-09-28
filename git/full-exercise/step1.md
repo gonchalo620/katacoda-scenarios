@@ -32,7 +32,7 @@ Para configuración inicial, ejecuta los siguientes comandos, sustituyéndolos c
 `git config --global user.name "Tu Nombre Completo"`{{copy}}
 `git config --global user.email "tucorreo@mail.com"`{{copy}}
 
-## Tips
+## Nota
 
 Recuerda, sólo necesitas hacer esto una vez si especificas la opción `--global`, ya que Git siempre
 usará esta información para todo lo que hagas en ese sistema. Si quieres sobrescribir esta
