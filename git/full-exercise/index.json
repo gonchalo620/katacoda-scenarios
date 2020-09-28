@@ -12,32 +12,44 @@
           "verify": "step1-verify.sh"
         },
         {
-         "title": "Paso 2: Git Push",
+         "title": "Paso 2: Clonar repositorio",
          "text": "step2.md",
          "answer": "step2-answer.md",
          "verify": "step2-verify.sh"
         },
         {
-          "title": "Paso 3: Git Pull",
+          "title": "Paso 3: Pasar la consola al directorio clonado",
           "text": "step3.md",
           "answer": "step3-answer.md",
           "verify": "step3-verify.sh"
          },
          {
-          "title": "Paso 4: Git Fetch",
+          "title": "Paso 4: Listar todas las ramas",
           "text": "step4.md",
           "answer": "step4-answer.md",
           "verify": "step4-verify.sh"
          },
          {
-          "title": "Paso 5: Git Fetch",
+          "title": "Paso 5: Crear nueva rama",
           "text": "step5.md",
           "answer": "step5-answer.md",
           "verify": "step5-verify.sh"
          },
          {
-          "title": "Paso 6: Git Fetch",
+          "title": "Paso 6: Crear archivo .html",
           "text": "step6.md"
+         },
+         {
+          "title": "Paso 7: Zona de preparación",
+          "text": "step7.md"
+         },
+         {
+          "title": "Paso 8: Confirmar cambios",
+          "text": "step8.md"
+         },
+         {
+          "title": "Paso 9: Subir a repositorio remoto",
+          "text": "step9.md"
          }
       ],
       "intro": {

@@ -30,11 +30,11 @@ introducida de manera inmutable en los commits que envías:
 Para configuración inicial, ejecuta los siguientes comandos, sustituyéndolos con tus datos reales
 
 `git config --global user.name "Tu Nombre Completo"`{{copy}}
-`git config --global user.email tucorreo@mail.com`{{copy}}
+`git config --global user.email "tucorreo@mail.com"`{{copy}}
 
 ## Tips
 
-De nuevo, sólo necesitas hacer esto una vez si especificas la opción `--global`, ya que Git siempre
+Recuerda, sólo necesitas hacer esto una vez si especificas la opción `--global`, ya que Git siempre
 usará esta información para todo lo que hagas en ese sistema. Si quieres sobrescribir esta
 información con otro nombre o dirección de correo para proyectos específicos, puedes ejecutar el
 comando sin la opción --global cuando estés en ese proyecto.

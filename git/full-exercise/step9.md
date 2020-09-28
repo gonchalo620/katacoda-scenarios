@@ -6,11 +6,11 @@ El comando `git push` va seguido de dos parámetros. El primer parámetro es el 
 
 Use el comando `git push` para enviar los cambios de la rama `feature/tu_nombre_completo` al repositorio remoto.
 
-`git push origin feature/tu_nombre_completo`{{copy}}
+`git push origin feature/el_nombre_de_la_rama_que_creaste_en_el_paso_5`{{copy}}
 
-Cuando le solicite ingresar el password por favor copie y pegue la siguiente cadena y de presione enter. Cuando pegue la cadena esta no se mostrara en la consola.`tb3yofvnvj2dunk5ty6xlq6574lmk66eqnbfltjazlyjwedix2kq`
+Cuando la consola le solicite ingresar el password por favor copie y pegue el siguiente token y de presione la tecla enter. Cuando pegues el token parecerá como si no lo hubieras pegado, pero esto lo hace por seguridad la consola, así que no te preocupes `tb3yofvnvj2dunk5ty6xlq6574lmk66eqnbfltjazlyjwedix2kq` recuerda oprimir la tecla enter.
 
 
-## Plus
+## Nota
 
-Este token es solo para este repositorio, cuando esté trabajando en un repositorio real, debes crear tu propio token.
+Este token es solo para este ejercicio, cuando esté trabajando en un repositorio real, deberás crear tu propio token.

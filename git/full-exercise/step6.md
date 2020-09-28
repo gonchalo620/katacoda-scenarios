@@ -1,5 +1,5 @@
-```echo '\<h1>Nombre: \</h1>
-\<p>Rol: \</p>' >> Reemplaza_Esto_Por_Tu_Nombre.html```{{copy}}
+````echo '\<h1>Nombre: \</h1>
+\<p>Rol: \</p>' >> Reemplaza_Esto_Por_Tu_Nombre.html````{{copy}}
 
 Esto creará un archivo .html con tu nombre, se hace de esta manera porque esta plataforma de aprendizaje solo puede crear archivos por comandos, pero en tu día a día puedes crear y modificar los archivos con cualquier editor o herramienta que uses para desarrollar.
 
