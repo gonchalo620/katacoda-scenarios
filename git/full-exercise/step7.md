@@ -11,6 +11,8 @@ Debió aparecerte el archivo que creó en el paso anterior como "untracked", sig
 
 Para agregar el archivo a la zona de preparación, ejecuta el siguiente comando `git add archivos/el_nombre_del_archivo_que_creaste.html`{{copy}}
 
+Vuelve a usar el comando `git status`{{execute}} para que observes que ya debió haber cambiado el estado del archivo (muestra que está listo para confirmar).
+
 ## Nota
 
 Git "no rastrea" todos los archivos hasta que se indique lo contrario.

@@ -1,5 +1,5 @@
-Cuando clonamos un repositorio, esto crea un directorio por defecto con el nombre del repositorio git, inicializa un directorio .git en su interior, descarga toda la información de ese repositorio y saca una copia de trabajo de la última versión. 
-Si te metes en el directorio TallerGit, verás que están los archivos del proyecto listos para ser utilizados. 
+Cuando clonamos un repositorio, por defecto se crea un directorio con el nombre del repositorio, inicializa un directorio .git en su interior, descarga toda la información de ese repositorio y saca una copia de trabajo de la última versión. 
+Si ingresas al directorio TallerGit, verás que están los archivos del proyecto listos para ser utilizados. 
 
 ## Tarea
 

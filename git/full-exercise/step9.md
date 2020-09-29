@@ -4,7 +4,7 @@ El comando git push va seguido de dos parámetros. El primer parámetro es el no
 
 ## Tarea
 
-Use el comando git push para enviar los cambios de la rama feature/tu_nombre_completo al repositorio remoto.
+Use el comando git push para enviar los cambios de la rama feature/tu_nombre_completo al repositorio remoto. Recuerda cambiar el nombre de la rama por la que creaste pasos atrás.
 
 `git push -u origin feature/el_nombre_de_la_rama_que_creaste_en_el_paso_5`{{copy}}. Sino recuerda el nombre de la rama, puedes ejecutar el comando `git branch`{{execute}} para que te muestres las ramas locales disponibles.
 
