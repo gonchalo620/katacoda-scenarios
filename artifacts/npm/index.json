@@ -19,8 +19,7 @@
   },
   "environment": {
     "uilayout": "vscode-terminal-split",
-    "uieditorpath": "/home/scrapbook/tutorial",
-    "showide": true
+    "uieditorpath": "/home/scrapbook/tutorial"
   },
   "backend": {
     "imageid": "nodejs:12"
