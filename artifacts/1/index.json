@@ -1,0 +1,27 @@
+{
+  "title": "Escenario 1: xxx",
+  "description": "Descripción.",
+  "difficulty": "Principiante",
+  "time": "10 minutos",
+  "details": {
+    "steps": [
+      {
+        "title": "Paso 1: xxx",
+        "text": "step1.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "vscode-terminal-split",
+    "uieditorpath": "/home/scrapbook/tutorial"
+  },
+  "backend": {
+    "imageid": "nodejs:12"
+  }
+}

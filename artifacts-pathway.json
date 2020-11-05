@@ -1,0 +1,13 @@
+{
+  "title": "Artifacts",
+  "description": "Descripción Artifacts",
+  "icon": "fa-katacoda",
+  "courses": [
+    {
+      "course_id": "1",
+      "title": "Escenario 1: xxx",
+      "description": "Descripción."
+    }
+  ]
+}
+ 
