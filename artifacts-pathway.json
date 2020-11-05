@@ -4,8 +4,8 @@
   "icon": "fa-katacoda",
   "courses": [
     {
-      "course_id": "1",
-      "title": "Escenario 1: xxx",
+      "course_id": "nuget-dotnet",
+      "title": "Escenario 1: Gestión de Nugets con DotNet",
       "description": "Descripción."
     }
   ]
