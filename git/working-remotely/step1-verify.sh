@@ -1,1 +1,1 @@
-git config --list | grep -i 'remote.origin.url' && echo "done"
+ls | grep -q 'Aprendiendo_Git' && echo 'done'

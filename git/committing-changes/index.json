@@ -16,7 +16,7 @@
        "answer":"step2-answer.md"
       },
       {
-        "title": "Paso 3: Git Add",
+        "title": "Paso 3: Git Add & Git Commit",
         "text": "step3.md",
         "answer":"step3-answer.md",
         "verify":"step3-verify.sh"
@@ -41,8 +41,7 @@
   },
   "environment": {
     "uilayout": "editor-terminal",
-    "uieditorpath": "/home/scrapbook/tutorial",
-    "hideHiddenFiles": false
+    "uieditorpath": "/home/scrapbook/tutorial"
   },
   "backend": {
     "imageid": "git"
