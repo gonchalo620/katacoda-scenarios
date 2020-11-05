@@ -19,7 +19,7 @@
   },
   "environment": {
     "uieditorpath": "/root/taller",
-    "uilayout": "vscode-terminal-split"
+    "uilayout": "editor-terminal"
   },
   "backend": {
     "imageid": "dotnet:3.1"
