@@ -20,6 +20,10 @@
       {
         "title": "Paso 4: Usar dependencia de terceros",
         "text": "step4.md"
+      },
+      {
+        "title": "Paso 5: Usar dependencias privadas",
+        "text": "step5.md"
       }
     ],
     "intro": {
@@ -30,7 +34,7 @@
     }
   },
   "environment": {
-    "uieditorpath": "/root/taller",
+    "uieditorpath": "/root/taller/Aplicacion",
     "uilayout": "editor-terminal"
   },
   "backend": {

@@ -84,6 +84,10 @@ As with the other dotnet CLI commands, first open a command line and switch to t
 To restore a package using dotnet restore:
 
 ## Crear un nuget package desde dotnet cli
+Mejor
+https://softchris.github.io/pages/dotnet-nuget.html#creating-a-library
+
+
 https://docs.microsoft.com/en-us/nuget/create-packages/creating-a-package-dotnet-cli
 https://docs.microsoft.com/en-us/nuget/quickstart/create-and-publish-a-package-using-the-dotnet-cli
 
@@ -105,7 +109,7 @@ https://docs.microsoft.com/en-us/nuget/quickstart/create-and-publish-a-package-u
 * dotnet nuget push --source "katacoda" --api-key hnrllprtsrjn5mrnqlc7njn76xg6srncmzaenvozsapg273xkura bin/Debug
 
 ## usar un paquete nuget propio en un proyecto y usarlo (ya publicado previamente en el feed privado)
-* dotnet add package EPM-AppLogger --version 1.0.0-CI-20201105-201534 fallo not found
+* dotnet add package EPM-Saludo --version 1.0.0-CI-20201105-225845
 * dotnet nuget list source
 * touch nuget.config
 <?xml version="1.0" encoding="utf-8"?>
@@ -116,7 +120,7 @@ https://docs.microsoft.com/en-us/nuget/quickstart/create-and-publish-a-package-u
   </packageSources>
   <packageSourceCredentials>
     <katacoda>
-      <add key="Username" value="" />
+      <add key="Username" value="cualquiercosa" />
       <add key="ClearTextPassword" value="%VSS_NUGET_EXTERNAL_FEED_ENDPOINTS%" />
     </katacoda>
 </packageSourceCredentials>
@@ -124,6 +128,13 @@ https://docs.microsoft.com/en-us/nuget/quickstart/create-and-publish-a-package-u
 
 
 * export VSS_NUGET_EXTERNAL_FEED_ENDPOINTS=hnrllprtsrjn5mrnqlc7njn76xg6srncmzaenvozsapg273xkura
+* dotnet add package EPM-Saludo --version 1.0.0-CI-20201105-225845
+* abra Program.cs y agregue al inicio using library.epm;
+* Agregue estas líneas al final de la funcion static void Main
+```var buzon = new Buzon();
+    string saludo = buzon.Saludar();
+    Console.WriteLine(saludo);
+```
 
 https://github.com/microsoft/artifacts-credprovider#azure-artifacts-credential-provider
 
@@ -136,7 +147,7 @@ así debe quedar
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="EPM-AppLogger" Version="1.0.0-CI-20201105-201534" />
+    <PackageReference Include="EPM-Saludo" Version="1.0.0-CI-20201105-225845" />
     <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
   </ItemGroup>
 
@@ -159,7 +170,7 @@ Debería quedar así:
   </packageSources>
   <packageSourceCredentials>
     <katacoda>
-      <add key="Username" value="%VSS_NUGET_EXTERNAL_FEED_ENDPOINTS%" />
+      <add key="Username" value="cualquiercosa" />
       <add key="ClearTextPassword" value="%VSS_NUGET_EXTERNAL_FEED_ENDPOINTS%" />
     </katacoda>
 </packageSourceCredentials>

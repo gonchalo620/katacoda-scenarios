@@ -9,7 +9,7 @@ public class Account
     public string Email { get; set; }
     public DateTime DOB { get; set; }
 }
-```
+```{{copy}}
 
 Luego reemplace la función static void Main(string[] args) con la siguiente porción de código:
 
@@ -26,7 +26,7 @@ static void Main(string[] args)
     string json = JsonConvert.SerializeObject(account, Formatting.Indented);
     Console.WriteLine(json);
 }
-```
+```{{copy}}
 
 Ahora ejecuta la aplicación `dotnet run`{{execute}}. Debe ver en la consola algo como esto:
 
