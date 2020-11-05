@@ -18,6 +18,7 @@
     }
   },
   "environment": {
+    "uieditorpath": "/root/taller",
     "showide": true,
     "idePort": 23000,
     "uilayout": "terminal"
