@@ -6,7 +6,7 @@
   "details": {
     "steps": [
       {
-        "title": "Paso 1: xxx",
+        "title": "Paso 1: Crear proyecto .net core",
         "text": "step1.md"
       }
     ],
