@@ -18,8 +18,10 @@
     }
   },
   "environment": {
+    "uieditorpath": "/root/taller",
     "showide": true,
-    "uieditorpath": "/home/taller"
+    "idePort": 23000,
+    "uilayout": "terminal"
   },
   "backend": {
     "imageid": "dotnet:3.1"
