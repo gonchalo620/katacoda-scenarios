@@ -2,7 +2,7 @@ En este paso vamos a crear un proyecto base de net core sencillo.
 
 El ambiente en el que se está ejecutando este escenario ya tiene instalado el SDK de Net Core. Para comprobarlo ejecuta el comando `dotnet --version`{{execute}}.
 
-Cree una carpeta llamada Aplicacion y apuntar a ella con la consola de comandos. Puede hacerlo ejecutando los comando `mkdir Aplicacion`{{execute}}
+Cree una carpeta llamada Aplicacion y apuntae a ella con la consola de comandos. Puede hacerlo ejecutando los comandos: `mkdir Aplicacion`{{execute}}
 
 `cd Aplicacion`{{execute}}
 

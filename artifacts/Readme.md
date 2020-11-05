@@ -59,7 +59,7 @@ public class Account
     public DateTime DOB { get; set; }
 }
 * Reemplace la Mainfunción con lo siguiente:
-  static void Main(string[] args)
+static void Main(string[] args)
 {
     Account account = new Account
     {
