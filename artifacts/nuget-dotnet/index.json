@@ -7,12 +7,19 @@
     "steps": [
       {
         "title": "Paso 1: Preparar escenario",
-        "text": "step1.md",
-        "background":"step1-background.sh"
+        "text": "step1.md"
       },
       {
         "title": "Paso 2: Crear proyecto .net core",
         "text": "step2.md"
+      },
+      {
+        "title": "Paso 3: Agregar dependencia de terceros",
+        "text": "step3.md"
+      },
+      {
+        "title": "Paso 4: Usar dependencia de terceros",
+        "text": "step4.md"
       }
     ],
     "intro": {
