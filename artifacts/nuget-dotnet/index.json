@@ -28,6 +28,14 @@
       {
         "title": "Paso 6: Usar dependencias privadas",
         "text": "step6.md"
+      },
+      {
+        "title": "Paso 7: Limpiar caché local",
+        "text": "step7.md"
+      },
+      {
+        "title": "Paso 8: Añadir fuente oficial de Nuget",
+        "text": "step8.md"
       }
     ],
     "intro": {
