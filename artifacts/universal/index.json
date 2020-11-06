@@ -1,0 +1,27 @@
+{
+  "title": "Escenario Gestión de artefactos universales",
+  "description": "Descripción.",
+  "difficulty": "Principiante",
+  "time": "10 minutos",
+  "details": {
+    "steps": [
+      {
+        "title": "Paso 1: Preparar escenario",
+        "text": "step1.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uieditorpath": "/root/taller/artefactos",
+    "uilayout": "editor-terminal"
+  },
+  "backend": {
+    "imageid": "dotnet:3.1"
+  }
+}
