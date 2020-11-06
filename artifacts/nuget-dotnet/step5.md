@@ -1,9 +1,23 @@
-Hasta el momento solo hemos usado librería Nuget que están publicadas en el repositorio oficial. Ahora utilizaremos una librería que está publicada en un feed de Artifacts en un proyecto privado de Azure DevOps.
+Hasta el momento solo hemos usado librerías Nuget que están publicadas en el repositorio oficial. Ahora utilizaremos una librería que está publicada en un feed de Artifacts en un proyecto privado de Azure DevOps.
 
 
-* dotnet add package EPM-Saludo --version 1.0.0-CI-20201105-225845
-* dotnet nuget list source
-* touch nuget.config
+vamos a intentar agregar la dependencia EPM-Saludo versión 1.0.0-CI-20201105-225845, la cual está publicada en un feed de Artifacts privado.
+
+Ejecuta el siguiente comando para intentar agregarla `dotnet add package EPM-Saludo --version 1.0.0-CI-20201105-225845`{{execute}}
+
+Como te pudiste dar cuenta no fue posible encontrar la dependencia EPM-Saludo, esto es porque por defecto dotnet intenta buscarla en el repositorio oficial de Nuget.
+
+Ejecuta el siguiente comando para ver cuáles fuentes de repositorio Nuget están configurados `dotnet nuget list source`{{execute}}
+
+Para configurar las fuentes para la aplicación que creamos anteriormente, vamos a crear un archivo nuget.config en la misma ruta donde tenemos el .csproj
+
+Para crear el archivo ejecta el comando:
+
+`touch nuget.config`{{execute}}
+
+Con la ayuda del editor copia la siguiente porción de código en el archivo nuget.config
+
+```
 <?xml version="1.0" encoding="utf-8"?>
 <configuration>
   <packageSources>
@@ -17,19 +31,10 @@ Hasta el momento solo hemos usado librería Nuget que están publicadas en el re
     </katacoda>
 </packageSourceCredentials>
 </configuration>
+```{{copy}}
 
+Si te fijas, en el archivo nuget.config en la etiqueta ClearTextPassword debemos pasar el personal access token de Azure DevOps, que debe tener al menos permisos de lectura en el feed de Artifacts. Para no colocar el token directamente en el archivo, utilizaremos la variable de ambiente VSS_NUGET_EXTERNAL_FEED_ENDPOINTS.
 
-* export VSS_NUGET_EXTERNAL_FEED_ENDPOINTS=hnrllprtsrjn5mrnqlc7njn76xg6srncmzaenvozsapg273xkura
-* dotnet add package EPM-Saludo --version 1.0.0-CI-20201105-225845
-* abra Program.cs y agregue al inicio using library.epm;
-* Agregue estas líneas al final de la funcion static void Main
-```var buzon = new Buzon();
-    string saludo = buzon.Saludar();
-    Console.WriteLine(saludo);
-```
-* dotnet run exito porque la librería Newtonsoft está en caché en el computador
-* dotnet nuget locals all --clear
-* dotnet run falla
-* agregar la fuente <add key="nuget.org" value="https://api.nuget.org/v3/index.json" protocolVersion="3" />
-dentro de la etiqueta <packageSources>
+Para crear la variable de ambiente ejecuta el siguiente comando:
 
+`export VSS_NUGET_EXTERNAL_FEED_ENDPOINTS=hnrllprtsrjn5mrnqlc7njn76xg6srncmzaenvozsapg273xkura`{{execute}}

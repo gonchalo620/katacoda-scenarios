@@ -22,8 +22,12 @@
         "text": "step4.md"
       },
       {
-        "title": "Paso 5: Usar dependencias privadas",
+        "title": "Paso 5: Configurar fuentes de Nuget",
         "text": "step5.md"
+      },
+      {
+        "title": "Paso 6: Usar dependencias privadas",
+        "text": "step6.md"
       }
     ],
     "intro": {
