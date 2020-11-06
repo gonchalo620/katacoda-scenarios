@@ -6,7 +6,8 @@ Para listar los sitios donde pueden haber dependencias, ejecute el comando:
 
 Dirígete a la carpeta `/root/.nuget/packages`para que confirmes que allí están almacenadas las dependencias que usamos en los pasos anteriores:
 `cd /root/.nuget/packages`{{execute}}
-`ls`{{execute}}
+
+Lista las carpetas con el comando `ls`{{execute}}
 
 Para limpiar las dependencias descargadas, ejecuta el comando:
 `dotnet nuget locals all --clear`{{execute}}

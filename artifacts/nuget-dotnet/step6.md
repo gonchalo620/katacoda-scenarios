@@ -9,10 +9,11 @@ Abra el archivo .csproj y verificar si se ha agregado la referencia de EPM-Salud
 
 Abra el archivo Program.cs y agregue al inicio `using library;`{{copy}} con esto ya podríamos hacer uso de la dependencia EPM-Saludo dentro de nuestra aplicación.
 
-Agregue estas líneas al final de la funcion static void Main
-```var buzon = new Buzon();
-    string saludo = buzon.Saludar();
-    Console.WriteLine(saludo);
+Agregue estas líneas al final de la funcion static void Main, después de la línea Console.WriteLine(json);
+```
+var buzon = new Buzon();
+string saludo = buzon.Saludar();
+Console.WriteLine(saludo);
 ```{{copy}}
 
 Ahora ejecuta la aplicación

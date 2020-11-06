@@ -1,15 +1,15 @@
 Hasta el momento solo hemos usado librerías Nuget que están publicadas en el repositorio oficial. Ahora utilizaremos una librería que está publicada en un feed de Artifacts en un proyecto privado de Azure DevOps.
 
 
-vamos a intentar agregar la dependencia EPM-Saludo versión 1.0.0-CI-20201105-225845, la cual está publicada en un feed de Artifacts privado.
+vamos a intentar agregar la dependencia EPM-Saludo versión 1.0.0-CI-20201105-225845, la cual está publicada en un feed de Artifacts privado https://dev.azure.com/capacitaciones-azure-devops
 
-Ejecuta el siguiente comando para intentar agregarla `dotnet add package EPM-Saludo --version 1.0.0-CI-20201105-225845`{{execute}}
+Ejecuta el siguiente comando para intentar agregar la dependencia `dotnet add package EPM-Saludo --version 1.0.0-CI-20201105-225845`{{execute}}
 
 Como te pudiste dar cuenta no fue posible encontrar la dependencia EPM-Saludo, esto es porque por defecto dotnet intenta buscarla en el repositorio oficial de Nuget.
 
 Ejecuta el siguiente comando para ver cuáles fuentes de repositorio Nuget están configurados `dotnet nuget list source`{{execute}}
 
-Para configurar las fuentes para la aplicación que creamos anteriormente, vamos a crear un archivo nuget.config en la misma ruta donde tenemos el .csproj
+Para configurar las fuentes de las dependencias de Nuget, vamos a crear un archivo nuget.config en la misma ruta donde tenemos el .csproj
 
 Para crear el archivo ejecta el comando:
 
