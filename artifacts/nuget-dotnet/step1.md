@@ -1,4 +1,4 @@
-En este paso vamos a crear un proyecto base de net core sencillo.
+En este primer paso vamos a crear un proyecto base de Net Core, sencillo.
 
 El ambiente en el que se está ejecutando este escenario ya tiene instalado el SDK de Net Core. Para comprobarlo ejecuta el comando `dotnet --version`{{execute}}.
 

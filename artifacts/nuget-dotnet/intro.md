@@ -1,1 +1,1 @@
-Intro
+En este escenario se realizará la práctica de crear un proyecto en .Net Core, utilizando librerías descargadas del repositorio oficial de Nuget y librerías de repositorios privados.

@@ -1,6 +1,6 @@
-Vamos a limpiar las dependencias nuget descargadas en la máquina local.
+Vamos a limpiar las dependencias Nuget descargadas en la máquina local.
 
-Para listar los sitios donde pueden haber dependencias, ejecute el comando: 
+Para listar los sitios donde pueden haber dependencias almacendas localmente, ejecute el siguiente comando: 
 
 `dotnet nuget locals all --list`{{execute}}
 
