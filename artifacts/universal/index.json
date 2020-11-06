@@ -6,8 +6,12 @@
   "details": {
     "steps": [
       {
-        "title": "Paso 1: Preparar escenario",
+        "title": "Paso 1: Instalar CLI - Azure",
         "text": "step1.md"
+      }
+      {
+        "title": "Paso 2: Instalar CLI - Azure",
+        "text": "step2.md"
       }
     ],
     "intro": {
