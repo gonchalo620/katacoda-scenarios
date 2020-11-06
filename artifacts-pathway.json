@@ -5,7 +5,12 @@
   "courses": [
     {
       "course_id": "nuget-dotnet",
-      "title": "Escenario 1: Gestión de Nugets con DotNet",
+      "title": "Gestión de Nugets con DotNet",
+      "description": "Descripción."
+    },
+    {
+      "course_id": "universal",
+      "title": "Gestión de artefactos universales",
       "description": "Descripción."
     }
   ]
