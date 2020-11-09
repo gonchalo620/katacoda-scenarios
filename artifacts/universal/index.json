@@ -6,12 +6,32 @@
   "details": {
     "steps": [
       {
-        "title": "Paso 1: Instalar CLI - Azure",
+        "title": "Paso 1: Crear organización, proyecto y feed",
+        "text": "step3.md"
+      },
+      {
+        "title": "Paso 2: Crear repositorio",
+        "text": "step4.md"
+      },
+      {
+        "title": "Paso 3: Configurar pipeline de CI",
+        "text": "step5.md"
+      },
+      {
+        "title": "Paso 4: Instalar Azire-CLI",
         "text": "step1.md"
       },
       {
-        "title": "Paso 2: Instalar CLI - Azure",
+        "title": "Paso 5: Iniciar sesión en Azure",
         "text": "step2.md"
+      },
+      {
+        "title": "Paso 6: Descargar paquete universal",
+        "text": "step6.md"
+      },
+      {
+        "title": "Paso 7: Eliminar Organización de prueba",
+        "text": "step7.md"
       }
     ],
     "intro": {

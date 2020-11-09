@@ -1,1 +1,1 @@
-Intro
+En este escenario aprenderá a crear un feed siguiendo los lineamientos definidos, almacenar paquetes universales y descargarlos mediante Azure - CLI
