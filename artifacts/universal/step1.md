@@ -1,9 +1,10 @@
-Para iniciar se requiere instalar la última compilación de Azure CLI, para máquinas Linux, se debe correr el siguiente comando  `curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash`{{execute}}
+Para esta práctica, deberá seguir los siguientes pasos:
 
+1. Crear una organización en Azure DevOps con el nombre capacitacion-artifacts
 
-Una vez instalada la CLI, deberá agregar la extensión de Azure DevOps, para esta tarea debe ejecutar el comando:  `az extension add --name azure-devops`{{execute}}
+2. Dentro de la organización artifacts, deberá crear un proyecto siguiendo el patron epm-artifacts y la visibilidad debe de ser privado.
 
+3. Ingresar al módulo artifacts y crear un feed con alcance de proyecto siguiendo los lineamientos definidos en el punto uno del procedimiento "Crear un feed con alcance de proyecto" que está alojado en el siguiente link: 
 
-Una vez termine la instalción, pordrá verificar su versión ejecutando `az --version`{{execute}} y revisar las extensones instaladas, allí deberá encontrar el item `azure-devops` con su respectiva versión.
+https://epmco.sharepoint.com/:w:/r/sites/devops/Documentos%20compartidos/Documentacion%20oficial/DefinicionesYLineamientos/AzureDevops/Artifacts/Gu%C3%ADas%20r%C3%A1pidas/Instrucciones%20Crear%20Feeds.docx?d=w79ae37201e164919b944c1776010104e&csf=1&web=1&e=2gM4zA
 
-Es importante aclarar que esta configuración se debe de realizar por una sola vez, con el fin de acondicionar la máquina

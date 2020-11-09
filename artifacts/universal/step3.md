@@ -1,10 +1,14 @@
-Para esta práctica, deberá seguir los siguientes pasos:
+Para la configuración del pipeline de CI, debe de seguir los siguientes pasos
 
-1. Crear una organización en Azure DevOps con el nombre artifacts
+1. Ingresar al módulo de Azure Pipelines y crear un nuevo Pipeline
 
-2. Dentro de la organización artifacts, deberá crear un proyecto siguiendo el patron sunombre-artifacts.
+2. Para configurar el pipeline de esta práctica, deberá usar el editor clásico 
 
-3. Ingresar al módulo artifacts y crear un feed con alcance de proyecto siguiendo los lineamientos definidos en el punto uno del procedimiento "Crear un feed con alcance de proyecto" que está alojado en el siguiente link: 
+![crear-pipeline](./assets/crear-pipeline-clasico.jpg)
 
-https://epmco.sharepoint.com/:w:/r/sites/devops/Documentos%20compartidos/Documentacion%20oficial/DefinicionesYLineamientos/AzureDevops/Artifacts/Gu%C3%ADas%20r%C3%A1pidas/Instrucciones%20Crear%20Feeds.docx?d=w79ae37201e164919b944c1776010104e&csf=1&web=1&e=2gM4zA
+3. Seleccionar el origen del repositorio que creó en el paso anterior:
+    - Select a source: Azure Repos Git
+    - Team project: epm-artifacts
+    - Repository: universal
 
+4. En el paso siguiente escoger la opción Empty Job

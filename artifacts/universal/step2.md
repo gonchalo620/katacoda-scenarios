@@ -1,3 +1,13 @@
-El comando para iniciar sesion en Azure es `az login`, para este caso utilizaremos una máquina virtual alojada en un repositorio remoto, por eso deberá usar el comando `az login --allow-no-subscription`{{execute}}. Este comando habilita la CLI sin necesidad de estar logueado
+Para esta práctica, se necesita crear un repositorio. Para ellos deberá seguir los siguientes pasos:
 
-En la terminal, el sistema le dará como respuesta una línea con link para ingresar a la página https://microsoft.com/devicelogin con un token en mayúsculas con el que deberá loguearse.
+1. Ingresar a la configuración del proyecto y luego a la opción Repositories
+
+![crear-repositorio](./assets/crear-repositorio-proyecto.jpg)
+
+2. Seleccinar la opción Create.
+
+3. Para crear el repositorio, tenga en cuenta las siguientes recomendaciones
+    - Repository name:universal 
+    - Check en Add a README
+
+4. Seleccionar Create para terminar con la tarea de crear el repositorios
