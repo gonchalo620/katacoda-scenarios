@@ -11,7 +11,7 @@
     {
       "course_id": "universal",
       "title": "Gestión de artefactos universales",
-      "description": "Descripción."
+      "description": "Vamos a aprender a cargar y descargar paquetes universales, además conocer comandos básicos de Azure CLI."
     }
   ]
 }

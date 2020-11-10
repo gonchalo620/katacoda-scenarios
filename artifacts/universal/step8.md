@@ -1,4 +1,4 @@
-Para eliminar la organización, debe de ingresar al menú de la organización que se creó y seleccionar la opción eliminar.
+Si desea eliminar la práctica realizada, proceda con los siguientes pasos
 
-![eliminar](./assets/eliminar.png)
+![eliminar-organizacion](./assets/eliminar-organizacion.png)
 
