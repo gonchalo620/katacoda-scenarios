@@ -8,4 +8,6 @@ Una vez ejecutado, puede probar que su descarga se realizó verificando en la te
 
 ![descarga-exitosa](./assets/descarga-exitosa.png)
 
-Además puede revisar el paquete descargado utilizando el comando ls -a
+Además puede revisar el paquete descargado utilizando el comando `ls`{{execute}} y encontrará el nombre del archivo README.md
+
+![paquete-descargado](./assets/paquete-descargado.png)

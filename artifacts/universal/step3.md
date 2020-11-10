@@ -4,7 +4,7 @@ Ingresar al módulo de Azure Pipelines y crear un nuevo Pipeline
 
 Para configurar el pipeline de esta práctica, deberá usar el editor clásico 
 
-    ![crear-pipeline](./assets/crear-pipeline-clasico.jpg)
+![crear-pipeline](./assets/crear-pipeline-clasico.jpg)
 
 Seleccionar el origen del repositorio que creó en el paso anterior:
     - Select a source: Azure Repos Git
