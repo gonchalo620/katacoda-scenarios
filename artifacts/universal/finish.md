@@ -1,3 +1,1 @@
-Finish
-
-.
+¡Felicitaciones! Ya sabes gestionar artefactos de tipo universal en repositorios de Azure DevOps.

@@ -1,4 +1,4 @@
-Para esta práctica, se necesita crear un repositorio. Para ellos deberá seguir los siguientes pasos:
+Para esta práctica, se necesita crear un repositorio git en el proyecto. Para ello deberá seguir los siguientes pasos:
 
 Ingresar a la configuración del proyecto y luego a la opción Repositories
 

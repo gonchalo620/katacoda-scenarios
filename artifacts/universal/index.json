@@ -42,8 +42,7 @@
     }
   },
   "environment": {
-    "uieditorpath": "/root/taller/artefactos",
-    "uilayout": "editor-terminal"
+    "uilayout": "terminal"
   },
   "backend": {
     "imageid": "dotnet:3.1"

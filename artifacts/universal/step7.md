@@ -1,4 +1,4 @@
-Para descargar el paquete universal,debe ingresar al feed donde lo almacenó y seleccionarlo. Una vez lo seleccione, le aparecerá un código similar a este:
+Para descargar el paquete universal publicado en los pasos anteriores,debe ingresar al feed donde lo almacenó y seleccionar el artefacto. Una vez lo seleccione, le aparecerá un código similar a este:
 
 ![descarga-paquete](./assets/descarga-paquete.png)
 

@@ -17,10 +17,10 @@ El pipeline debe de configurarse con un agente alojado en Azure.
 
 ![configurar-pipeline](./assets/configuracion-pipeline.png)
 
-Agregar la tarea Univiersal packages del menú de tareas y realizar las siguientes configuraciones.
+Agregar la tarea Universal packages del menú de tareas y realizar las siguientes configuraciones.
 
 ![configurar-publish](./assets/publish.png)
 
 Proceda a guardar las configuraciones y ejecute el pipeline.
 
-Una vez termine de ejecutarse el pipeline ingrese al módulo de Artifacts, seleccione el feed universal-artifracts y allí encontrará el paquete publicado
+Una vez termine de ejecutarse el pipeline ingrese al módulo de Artifacts, seleccione el feed correspondiente y allí encontrará el paquete publicado desde el pipeline de build.
