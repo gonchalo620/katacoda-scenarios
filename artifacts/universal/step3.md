@@ -1,14 +1,26 @@
 Para la configuración del pipeline de CI, debe de seguir los siguientes pasos
 
-1. Ingresar al módulo de Azure Pipelines y crear un nuevo Pipeline
+Ingresar al módulo de Azure Pipelines y crear un nuevo Pipeline
 
-2. Para configurar el pipeline de esta práctica, deberá usar el editor clásico 
+Para configurar el pipeline de esta práctica, deberá usar el editor clásico 
 
-![crear-pipeline](./assets/crear-pipeline-clasico.jpg)
+    ![crear-pipeline](./assets/crear-pipeline-clasico.jpg)
 
-3. Seleccionar el origen del repositorio que creó en el paso anterior:
+Seleccionar el origen del repositorio que creó en el paso anterior:
     - Select a source: Azure Repos Git
     - Team project: epm-artifacts
     - Repository: universal
 
-4. En el paso siguiente escoger la opción Empty Job
+En el paso siguiente escoger la opción Empty Job
+
+El pipeline debe de configurarse con un agente alojado en Azure.
+
+![configurar-pipeline](./assets/configuracion-pipeline.png)
+
+Agregar la tarea Univiersal packages del menú de tareas y realizar las siguientes configuraciones.
+
+![configurar-publish](./assets/publish.png)
+
+Proceda a guardar las configuraciones y ejecute el pipeline.
+
+Una vez termine de ejecutarse el pipeline ingrese al módulo de Artifacts, seleccione el feed universal-artifracts y allí encontrará el paquete publicado

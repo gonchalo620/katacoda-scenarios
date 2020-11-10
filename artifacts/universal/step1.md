@@ -1,10 +1,19 @@
 Para esta práctica, deberá seguir los siguientes pasos:
 
-1. Crear una organización en Azure DevOps con el nombre capacitacion-artifacts
+Ingresar al sitio: https://azure.microsoft.com/en-us/services/devops/
 
-2. Dentro de la organización artifacts, deberá crear un proyecto siguiendo el patron epm-artifacts y la visibilidad debe de ser privado.
+![iniciar-sesion](./assets/crear-repositorio-proyecto.jpg)
 
-3. Ingresar al módulo artifacts y crear un feed con alcance de proyecto siguiendo los lineamientos definidos en el punto uno del procedimiento "Crear un feed con alcance de proyecto" que está alojado en el siguiente link: 
+Antes de iniciar con la práctica se requiere tener una organización en Azure DevOps para realizar estas pruebas. No se recomienda utilizar la organización oficial de su compañía
 
-https://epmco.sharepoint.com/:w:/r/sites/devops/Documentos%20compartidos/Documentacion%20oficial/DefinicionesYLineamientos/AzureDevops/Artifacts/Gu%C3%ADas%20r%C3%A1pidas/Instrucciones%20Crear%20Feeds.docx?d=w79ae37201e164919b944c1776010104e&csf=1&web=1&e=2gM4zA
+Dentro de la organización que tiene para realizar las pruebas, deberá crear un proyecto y la visibilidad debe de ser privado.
+
+![crear-proyecto](./assets/crear-proyecto.png.jpg)
+
+Ingresar al módulo artifacts y crear un feed con alcance de proyecto siguiendo los lineamientos definidos en el punto uno del procedimiento "Crear un feed con alcance de proyecto". En este documento se requiere cumplir los siguientes lineamientos:
+
+    - Nombre del feed: <nombre del proyecto>-artifacts
+    - Visibility: Specific people
+    - Deshabilitar la opción: Upstream sources
+    - Scope: seleccionar la opción en donde aparece el nombre de su proyecto
 
