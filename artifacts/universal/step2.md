@@ -4,7 +4,7 @@ Ingresar a la configuración del proyecto y luego a la opción Repositories
 
 ![crear-repositorio](./assets/crear-repositorio-proyecto.jpg)
 
-Seleccinar la opción Create.
+Seleccionar la opción Create.
 
 Para crear el repositorio, tenga en cuenta las siguientes recomendaciones
     - Repository name:universal 

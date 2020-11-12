@@ -4,6 +4,6 @@ Instalar la última compilación de Azure CLI, para máquinas Linux, se debe cor
 
 Una vez instalada la CLI, deberá agregar la extensión de Azure DevOps, para esta tarea debe ejecutar el comando: `az extension add --name azure-devops`{{execute}}
 
-Una vez termine la instalción, pordrá verificar su versión ejecutando `az --version`{{execute}} y revisar las extensones instaladas, allí deberá encontrar el item `azure-devops` con su respectiva versión.
+Una vez termine la instalación, podrá verificar su versión ejecutando `az --version`{{execute}} y revisar las extensones instaladas, allí deberá encontrar el item `azure-devops` con su respectiva versión.
 
 Es importante aclarar que esta configuración se debe de realizar por una sola vez
