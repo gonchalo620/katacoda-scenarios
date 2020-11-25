@@ -182,12 +182,6 @@ Debería quedar así:
 ## crear un nuevo proyecto y agregar y descargar el paquete publicado 
 
 
-
-
-hnrllprtsrjn5mrnqlc7njn76xg6srncmzaenvozsapg273xkura
-
-
-
 Agentes de compilación desatendidos
 Canalizaciones de Azure DevOps
 Use la tarea Autenticar NuGet antes de ejecutar los comandos NuGet, dotnet o MSBuild que necesitan autenticación.

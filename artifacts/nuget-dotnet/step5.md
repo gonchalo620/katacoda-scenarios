@@ -34,4 +34,6 @@ Si te fijas, en el archivo nuget.config en la etiqueta ClearTextPassword debemos
 
 Para crear la variable de ambiente con el valor del token ejecuta el siguiente comando:
 
-`export VSS_NUGET_EXTERNAL_FEED_ENDPOINTS=hnrllprtsrjn5mrnqlc7njn76xg6srncmzaenvozsapg273xkura`{{execute}}
+Recuerda solicitar el token a los instructores.
+
+`export VSS_NUGET_EXTERNAL_FEED_ENDPOINTS=<copia acá el token sin los signos de mayor y menor>`{{copy}}
