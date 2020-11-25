@@ -1,4 +1,7 @@
-Para esta práctica, se necesita crear un repositorio git en el proyecto. Para ello deberá seguir los siguientes pasos:
+El paso a seguir es crear crear un repositorio GIT en el proyecto. Como se está trabajando con paquetes universales, para este ejercicio no se requiere código fuente como tal. Bastará con el archivo README.md que se crea junto con el repositorio
+
+
+Para ello deberá seguir los siguientes pasos:
 
 Ingresar a la configuración del proyecto y luego a la opción Repositories
 
