@@ -37,3 +37,7 @@ Para crear la variable de ambiente con el valor del token ejecuta el siguiente c
 Recuerda solicitar el token a los instructores.
 
 `export VSS_NUGET_EXTERNAL_FEED_ENDPOINTS=<copia acá el token sin los signos de mayor y menor>`{{copy}}
+
+## Nota
+
+La configuración de packageSourceCredentials quizás no sea necesaria en los proyectos reales en los que estés trabajando, ya que los pipelines de Azure DevOps y Visual Studio pueden manejar de manera transparente la autenticación de los repositorios.
