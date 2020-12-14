@@ -1,4 +1,4 @@
-Antes de iniciar con la práctica se requiere tener una organización en Azure DevOps para realizar estas pruebas. **Por ningún motivo, se recomienda utilizar la organización oficial de su compañía.** En caso que no tenga su área de pruebas, proceda a realizar los siguientes pasos:
+Antes de iniciar con la práctica se requiere tener una organización en Azure DevOps para realizar estas pruebas. **Por ningún motivo, se recomienda utilizar la organización oficial de su compañía.** En caso que no tenga una organización de Azure DevOps propia, proceda a realizar los siguientes pasos:
 
 Ingresar al sitio: https://azure.microsoft.com/en-us/services/devops/
 
@@ -8,7 +8,7 @@ Dentro de la organización que tiene para realizar las pruebas, deberá crear un
 
 ![crear-proyecto](./assets/crear-proyecto.png)
 
-Una vez creado el proyecto, procesa a ingresar al módulo artifacts que está al lado izquierdo de su pantalla
+Una vez creado el proyecto, proceda a ingresar al módulo artifacts que está al lado izquierdo de su pantalla
 
 ![menu-artifacts](./assets/menu-artifacts.png)
 
