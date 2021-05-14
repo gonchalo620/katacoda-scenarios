@@ -40,7 +40,7 @@ Ahora el siguiente paso a seguir es crear el token. Entonces, deberá de selecci
 
 Después se abrirá una ventana al lado derecho de su pantalla, copie el token y péguelo en un sitio que sea seguro para usted (block de notas) Tenga en cuenta que este código por temas de seguridad solamente podrá obtenerlo por una vez.
 
-![copiar-token](./assetsCopiar-Token.png)
+![copiar-token](./assets/Copiar-Token.png)
 
 Regrese a la consola de este ejercicio, y copie el siguiente comando teniendo en cuenta el token que generó en el paso anterior en Azure DevOps:
 
