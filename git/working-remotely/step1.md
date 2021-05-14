@@ -2,7 +2,7 @@ Los repositorios remotos le permiten compartir cambios desde o hacia su reposito
 
 ## Tarea
 
-Este entorno tiene una ubicación de repositorio remoto en https://capacitaciones-azure-devops@dev.azure.com/capacitaciones-azure-devops/Aprendiendo_Git/_git/Aprendiendo_Git. Usando `git clone`, clone el repositorio remoto.
+Este entorno tiene una ubicación de repositorio remoto en https://grupoepm.visualstudio.com/CapacitacionesEPM/_git/Aprendiendo_Git. Usando `git clone`, clone el repositorio remoto.
 
 ## Tips
 
