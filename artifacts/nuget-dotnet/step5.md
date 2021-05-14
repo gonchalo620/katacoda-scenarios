@@ -44,7 +44,7 @@ Después se abrirá una ventana al lado derecho de su pantalla, copie el token y
 
 Regrese a la consola de este ejercicio, y copie el siguiente comando teniendo en cuenta el token que generó en el paso anterior en Azure DevOps:
 
-`export VSS_NUGET_EXTERNAL_FEED_ENDPOINTS=<copia acá el token que generó en los pasos anteriores>`{{copy}}
+`export VSS_NUGET_EXTERNAL_FEED_ENDPOINTS=<copia acá el token que generó en los pasos anteriores y debe de eliminarlos signos mayot y menor>`{{copy}}
 
 Para verificar la acción anterior puedes ejecutar el siguiente comando `printenv VSS_NUGET_EXTERNAL_FEED_ENDPOINTS`{{execute}}
 
